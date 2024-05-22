@@ -1,12 +1,8 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import { HashLink } from 'react-router-hash-link';
-import {
-  BrowserRouter as Router
-} from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 
 export const NavBar = () => {
-
   const [activeLink, setActiveLink] = useState('home');
   const [scrolled, setScrolled] = useState(false);
 
@@ -27,6 +23,7 @@ export const NavBar = () => {
   const onUpdateActiveLink = (value) => {
     setActiveLink(value);
   }
+
 
   return (
     <Router>
@@ -50,9 +47,11 @@ export const NavBar = () => {
                 <a href="#"><img src={navIcon2} alt="" /></a>
                 <a href="#"><img src={navIcon3} alt="" /></a> */}
               </div>
-              <HashLink to='#connect'>
-                <button className="vvd"><span>Let’s Connect</span></button>
-              </HashLink>
+              <a href="https://drive.google.com/file/d/1pyItoM3nKzc_q6PH8c4sFs-QJJ-6MCyN/view?usp=sharing" download>
+                <button className="resume">
+                  <span>Resume</span>
+                </button>
+              </a>
             </span>
           </Navbar.Collapse>
         </Container>
