@@ -1,28 +1,34 @@
 /* loader.css */
 .loader-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #0a192f; /* Dark background */
-  }
-  
-  .loader-logo {
-    width: 100px; /* Adjust size as needed */
-    height: 100px;
-    animation: draw 1.6s linear forwards; /* Adjust the duration */
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #0a192f; /* Dark background */
 }
-  
+
+.loader-logo {
+  width: 200px; /* Adjust size as needed */
+  height: 200px;
+  animation: draw 1.8s linear forwards; /* Adjust the duration */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .loading .content {
   opacity: 1;
 }
 
-  @keyframes draw {
-    0% {
-      stroke-dasharray: 0, 100; /* Match the path length */
-    }
-    100% {
-      stroke-dasharray: 100, 0; /* Match the path length */
-    }
+@keyframes draw {
+  0% {
+    stroke-dasharray: 0, 100; /* Match the path length */
   }
+  100% {
+    stroke-dasharray: 100, 0; /* Match the path length */
+  }
+}
+
   
