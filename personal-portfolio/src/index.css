@@ -32,6 +32,7 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
+  background-image: url('assets/background.jpg');
   background-color: #0a192f !important;
   color: #fff !important;
   font-family: 'Centra', sans-serif !important;
@@ -287,20 +288,38 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Skills Css ************/
 .skill {
-  padding: 0 0 50px 0;
+  padding: 0 0 40px 0;
   position: relative;
 }
 .skill-bx {
-  background: #151515;
+  background: transparent;
+  border: 2px solid #00ccff; /* Change border color here */
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
-  margin-top: -60px;
+  margin-top: 50px;
 }
 .skill h2 {
 	font-size: 45px;
 	font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: 40px;
 }
+
+.skill-slider .item svg {
+  margin-bottom: 50px; /* Add margin between the SVG icon and the title */
+}
+
+.skill-slider .item h5 {
+  margin-top: 50px; /* Add margin between the title and the SVG icon */
+}
+
+.skill button {
+  background-color: transparent !important;
+  width: 60px;
+  height: 60px;
+}
+
 .skill p {
     color: #B8B8B8;
     font-size: 18px;
@@ -312,17 +331,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 80%;
   margin: 0 auto;
   position: relative;
-}
-.skill-slider .item img {
-  width: 50%;
-  margin: 0 auto 15px auto;
-}
-.background-image-left {
-  top: 28%;
-  position: absolute;
-  bottom: 0;
-  width: 40%;
-  z-index: -4;
 }
 
 /************ Projects Css ************/

@@ -13,6 +13,10 @@
     animation: draw 1.6s linear forwards; /* Adjust the duration */
 }
   
+.loading .content {
+  opacity: 1;
+}
+
   @keyframes draw {
     0% {
       stroke-dasharray: 0, 100; /* Match the path length */
