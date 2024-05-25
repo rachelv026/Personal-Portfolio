@@ -1,5 +1,5 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
-// import { ProjectCard } from "./ProjectCard";
+import { ProjectCard } from "./ProjectCard";
 // import colorSharp2 from "../assets/img/color-sharp2.png";
 import TrackVisibility from 'react-on-screen';
 
@@ -61,7 +61,7 @@ export const Projects = () => {
                     <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
                         <Row>
-                        {/* {
+                        {
                             projects.map((project, index) => {
                             return (
                                 <ProjectCard
@@ -70,7 +70,7 @@ export const Projects = () => {
                                 />
                             )
                             })
-                        } */}
+                        }
                         </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="section">
