@@ -26,7 +26,7 @@ export const Projects = () => {
       title: "Pattern Hollow",
       description: "Discover and save crochet patterns, organized by difficulty level, to your personal account",
       imgUrl: pattern,
-      githubUrl: "https://github.com/rachelv026"
+      githubUrl: "https://github.com/rachelv026/Pattern-Hollow"
     }
   ];
 
