@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Personal-Portfolio/static/css/main.cfab8e4d.css",
-    "main.js": "/Personal-Portfolio/static/js/main.4a65e470.js",
+    "main.js": "/Personal-Portfolio/static/js/main.e442c36f.js",
     "static/js/206.5a030ab1.chunk.js": "/Personal-Portfolio/static/js/206.5a030ab1.chunk.js",
     "static/media/purrfectContacts.png": "/Personal-Portfolio/static/media/purrfectContacts.3470b397217d70740eee.png",
     "static/media/background.jpg": "/Personal-Portfolio/static/media/background.32ea6c56979964c6d049.jpg",
@@ -17,6 +17,6 @@
   },
   "entrypoints": [
     "static/css/main.cfab8e4d.css",
-    "static/js/main.4a65e470.js"
+    "static/js/main.e442c36f.js"
   ]
 }
